@@ -1,0 +1,56 @@
+input::placeholder {
+  color: antiquewhite;
+}
+
+.navbar {
+  background: white;
+}
+
+/* Card start*/
+.card {
+  overflow: hidden;
+    border-radius: 5px;
+}
+
+.card.large {
+  border-radius: 5px;
+}
+
+.title.no-padding {
+  margin-bottom: 0 !important;
+}
+
+.footer {
+  background: white;
+}
+
+.footer a:hover {
+  color: crimson;
+}
+
+.fa {
+  color: ghostwhite;
+  margin: 10px
+}
+
+#category-legend{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.legend-color{
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+button.card-footer-item{
+  background: transparent;
+  font-size: 16px;
+  border: 1px solid white;
+}
+
+.card-footer{
+  border-radius: 0 0 5px 5px;
+    overflow: hidden;
+}
