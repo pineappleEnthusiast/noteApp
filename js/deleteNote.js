@@ -4,6 +4,7 @@
       - https://www.section.io/engineering-education/text-to-speech-in-javascript/
       - https://dev.to/asaoluelijah/text-to-speech-in-3-lines-of-javascript-b8h
       - https://usefulangle.com/post/98/javascript-text-to-speech
+      
   - speech to text
       - https://www.studytonight.com/post/javascript-speech-recognition-example-speech-to-text
       - https://tutorialzine.com/2017/08/converting-from-speech-to-text-with-javascript
