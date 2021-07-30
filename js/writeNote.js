@@ -37,8 +37,6 @@ const renderCategories = categories => {
   }
 }
                    
-
-
 const handleNoteSubmit = () => {
   // 1. Capture the form data
   const noteTitle = document.querySelector("#noteTitle");
@@ -68,7 +66,8 @@ const handleNoteSubmit = () => {
       title: noteTitle.value,
       text: noteText,
       category: noteCategory.value,
-      archive: false
+      archive: false,
+      date: Date.now()
     })
 
     // 3. Clear the form so that we can write a new note
