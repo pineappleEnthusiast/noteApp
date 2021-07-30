@@ -1,3 +1,10 @@
 select{
   width: 100%;
 }
+body {
+    background: rgb(151,151,241);
+    background: linear-gradient(90deg, rgba(151,151,241,1) 0%, rgba(170,186,219,1) 49%, rgba(122,233,255,1) 100%);
+}
+.label {
+    font-size: 25px;
+}
