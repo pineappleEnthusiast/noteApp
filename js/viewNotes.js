@@ -74,6 +74,14 @@ const createCard = (noteId, note) => {
       }
     }
   });
+  
+    let noteDate = ""
+    if (note.date) {
+        noteDate = ` <footer class="card-footer date-created">
+            ${new Date(note.date).toLocaleTimeString([], {year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit'})}
+    </footer>`
+    }
+
 
   return `
          <div class="column is-one-quarter">
@@ -88,6 +96,7 @@ const createCard = (noteId, note) => {
     <button class="card-footer-item" onClick="editNote('${noteId}')" >Edit</button>
     <button class="card-footer-item" onclick="delNote('${noteId}')">Delete</button>
   </footer>
+  ${noteDate}
          </div>
        </div> `;
 };
