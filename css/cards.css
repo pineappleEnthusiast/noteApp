@@ -9,7 +9,7 @@ input::placeholder {
 /* Card start*/
 .card {
   overflow: hidden;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .card.large {
@@ -47,10 +47,18 @@ input::placeholder {
 button.card-footer-item{
   background: transparent;
   font-size: 16px;
-  border: 1px solid white;
+  border: 1px solid transparent;
+  cursor: pointer;
 }
 
 .card-footer{
   border-radius: 0 0 5px 5px;
     overflow: hidden;
+}
+
+.date-created{
+    padding: 0.5rem 0;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
 }
